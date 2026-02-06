@@ -11,7 +11,7 @@ This repository documents my journey learning Machine Learning, moving from firs
 
 ### 1. From Scratch (No Libraries)
 *Implementations using only Python lists or C arrays.*
-- [ ] **Linear Regression:** Gradient descent implementation in pure Python.
+- [x] **Linear Regression:** Gradient descent implementation in pure Python.
 - [ ] **Logistic Regression:** Binary classification.
 - [ ] **Neural Network:** Forward/backward propagation without frameworks.
 

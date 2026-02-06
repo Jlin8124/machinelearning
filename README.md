@@ -34,4 +34,4 @@ This repository documents my journey learning Machine Learning, moving from firs
 ## 📝 Learning Log
 | Date | Topic | Notes |
 |------|-------|-------|
-| 2026-02-05 | Linear Regression | Implemented Gradient Descent in pure Python. |
+| 2026-02-05 | Linear Regression | Implemented Gradient Descent in pure Python. |# machinelearning

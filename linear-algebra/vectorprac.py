@@ -17,3 +17,22 @@ print("midpoint:", midpoint)
 # Verify they sum to 1
 c, d, e = 1/3, 1/3, 1/3
 print("sum of coefficients:", c+d+e)
+
+def softmax(scores):
+    exp_scores = np.exp(scores)
+    return exp_scores / np.sum(exp_scores)
+
+scores = np.array([2.0, 1.0, 0.5])
+
+weights = softmax(scores)
+print("weights:", weights)
+print("sum:", np.sum(weights))
+
+scores = np.array([1.0, 1.0, 1.0])
+
+weights = softmax(scores)
+print("weights:", weights)
+print("sum:", np.sum(weights))
+
+center = 1/3*scores
+print("center:", center)
